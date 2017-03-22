@@ -1,0 +1,82 @@
+@import 'animation';
+@import 'section';
+@import 'variables';
+body{
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+#headerMain{
+  font-family: 'Roboto', sans-serif;
+  background-image: url('../media/kato.mp4');
+  width: 100%;
+  font-size: 24px;
+  background: black;
+  margin: 0 auto;
+.container{
+  width: 100vh;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+.logo{
+  background-image: url("../images/logoKato.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  animation: heartbeat 1.5s infinite;
+}
+.position{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 20%;
+}
+.menu{
+  top: 60%;
+  li{
+    position: absolute;
+    list-style-type: none;
+    display: none;
+    text-transform: uppercase;
+    z-index: 1;
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  a:hover{
+    font-size: 2rem;
+  }
+  }
+  .menuOne{
+    top: 10%;
+    left: 5%;
+  }
+  .menuTwo{
+    top: 10%;
+    right: 5%;
+  }
+  .menuThree{
+    top: 45%;
+    left: 5%;
+  }
+  .menuFour{
+    top: 45%;
+    right: -10%;
+    text-align: center;
+  }
+  .menuFive{
+    top: 75%;
+    left: 17%;
+  }
+  .menuSix{
+    top: 75%;
+    right: 17%;
+  }
+}
+}

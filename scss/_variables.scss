@@ -1,0 +1,7 @@
+$mainFontColor: rgba(48, 44, 44, 0.8);
+
+%animationBacground{
+  -webkit-animation: kenburns-top 15s ease-out infinite both;
+	-moz-animation: kenburns-top 15s ease-out infinite both;
+	animation: kenburns-top 15s ease-out infinite both;
+}
