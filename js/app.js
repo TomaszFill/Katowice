@@ -11,7 +11,6 @@ if($(window).width() > 501){
 menu.each(function(i){
         $(this).hide().delay(i*1400).fadeIn(1550);}
 );
-
 }
 
 
@@ -64,7 +63,6 @@ heart.on('click', function(){
   miejsca.css('z-index', '2');
 
 })
-
 
 
 
