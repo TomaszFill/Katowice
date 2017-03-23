@@ -11,19 +11,28 @@ body{
   font-size: 24px;
   background: black;
   margin: 0 auto;
-.container{
+  p{
+    opacity: 0.1;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 5px;
+    text-align: justify;
+  }
+.containerOne{
   width: 100vh;
   height: 100vh;
   margin: 0 auto;
   position: relative;
+  z-index: 1;
 }
 .logo{
   background-image: url("../images/logoKato.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 50vh;
-  height: 50vh;
+  width: 70vh;
+  height: 70vh;
   position: absolute;
   animation: heartbeat 1.5s infinite;
 }

@@ -1,4 +1,7 @@
 @import "variables";
+@media (max-width: 799px){
+  body{
+    font-size: 12px;
 
 #headerSection{
   background-color: rgba(44, 49, 44, 0.9);
@@ -6,6 +9,712 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+
+  .container{
+    width: 100%;
+    height: 20vh;
+    margin: 0 auto;
+
+    h1{
+      font-size: 4rem;
+      position: absolute;
+      top: 30%;
+      left: 35%;
+      color: white;
+    }
+  }
+  .logoSection{
+    width: 30%;
+    margin: 0 auto;
+    height: 12vh;
+    display: block;
+    background-image: url("../images/logoKato.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: heartbeat 1.5s infinite;
+  }
+  .menuSectionDiv{
+    position: absolute;
+    right: 2%;
+  }
+  #menuSection{
+    #menu{
+      li{
+        display: inline;
+        float: right;
+        padding-top: 1rem;
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 0.6rem;
+          padding-right: 1.8rem;
+        }
+        a:hover{
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+.sticky {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(44, 49, 44, 0.9);
+    z-index: 99;
+}
+// historia
+#historia{
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    }
+.section1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sectionOneHistoria {
+  background-image: url('../images/skrzydła.jpg');
+  .sectionOne{
+    font-size: 24px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top:99vh;
+    background: rgba(44, 49, 44, 0.9);
+    p{
+      padding: 2%;
+      font-size: 0.6em;
+      color: white;
+    }
+
+  }
+}
+
+.sectionTwoHistoria{
+  background-image: url('../images/katowice-noca.jpg');
+  .sectionTwo{
+    font-size: 24px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(44, 49, 44, 0.9);
+    position: absolute;
+    top: 215vh;
+    p{
+      padding-top: 2%;
+      font-size: 0.6em;
+      color: white;
+    }
+  }
+
+}
+.sectionThreeHistoria{
+  background-image: url('../images/spodek.jpg');
+  .sectionThree{
+    font-size: 24px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(44, 49, 44, 0.9);
+    position: absolute;
+    top: 300vh;
+    p{
+      padding-top: 2%;
+      font-size: 0.6em;
+      color: white;
+    }
+  }
+}
+
+.sectionFourHistoria{
+  background-image: url('../images/gwiazdy.jpg');
+}
+}
+// wydarzenia
+
+#wydarzenia{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+  }
+  .eventBox{
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    a{
+      width: 32%;
+      height: 30vh;
+      margin:20px auto;
+      position: relative;
+      border-radius: 5%;
+    }
+    .eventOne{
+      .eventBoxOne{
+        font-size: 5vw;
+        position: absolute;
+        bottom: 30%;
+        left: 28%;
+        color: $mainFontColor;
+      }
+    }
+    .eventOne:hover{
+      background-image: url("../images/EEC-min.jpg");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+
+      .eventBoxOne{
+        display: none;
+      }
+    }
+    .eventTwo{
+      .eventBoxTwo{
+        font-size: 5vw;
+        position: absolute;
+        bottom: 30%;
+        left: 28%;
+        color: $mainFontColor;
+      }
+    }
+    .eventTwo:hover{
+      background-image: url("../images/IEM-min.jpg");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+
+      .eventBoxTwo{
+        display: none;
+      }
+    }
+    .eventThree{
+      .eventBoxThree{
+        font-size: 5vw;
+        position: absolute;
+        bottom: 30%;
+        left: 28%;
+        color: $mainFontColor;
+      }
+    }
+    .eventThree:hover{
+      background-image: url("../images/TNM-min.png");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+
+      .eventBoxThree{
+        display: none;
+      }
+    }
+    .eventFour{
+      .eventBoxFour{
+        font-size: 4vw;
+        position: absolute;
+        bottom: 30%;
+        left: 12%;
+        color: $mainFontColor;
+      }
+    }
+    .eventFour:hover{
+      background-image: url("../images/rawablues-min.jpg");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+
+      .eventBoxFour{
+        display: none;
+      }
+    }
+    .eventFive{
+      .eventBoxFive{
+        font-size: 4vw;
+        position: absolute;
+        bottom: 30%;
+        left: 13%;
+        color: $mainFontColor;
+        text-align: center;
+      }
+    }
+    .eventFive:hover{
+      background-image: url("../images/Juwenalia-Śląskie-min.png");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+
+      .eventBoxFive{
+        display: none;
+      }
+    }
+    .eventSix{
+      .eventBoxSix{
+        font-size: 4vw;
+        position: absolute;
+        bottom: 30%;
+        left: 15%;
+        color: $mainFontColor;
+        text-align: center;
+      }
+    }
+    .eventSix:hover{
+      background-image: url("../images/offFestival-min.jpg");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+
+      .eventBoxSix{
+        display: none;
+      }
+    }
+}
+}
+// video
+
+.video{
+  display: none;
+  .videoHead{
+    width: 100%;
+    h3{
+      background-color: rgba(44, 49, 44, 0.9);
+      text-align: center;
+      color: white;
+      font-weight: lighter;
+      letter-spacing: 0.2rem;
+      font-size: 3rem;
+      font-weight: bold;
+      span{
+        color:red;
+      }
+    }
+  }
+  video{
+    width: 100%;
+  }
+}
+// sport
+
+#sport{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+  }
+  .sportBox{
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    a{
+      width: 32%;
+      height: 30vh;
+      margin:20px auto;
+      position: relative;
+      border-radius: 5%;
+      text-decoration: none;
+      font-size: 4vw;
+    }
+    .sportOne{
+      .piłkaBox{
+        position: absolute;
+        bottom: 20%;
+        left: 28%;
+        color: $mainFontColor;
+        text-decoration: none;
+      }
+    }
+    .sportOne:hover{
+      background-image: url("../images/piłka-min.jpg");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+      .piłkaBox{
+        display: none;
+      }
+    }
+    .sportTwo{
+      .siatkaBox{
+        position: absolute;
+        bottom: 30%;
+        left: 15%;
+        color: $mainFontColor;
+        text-decoration: none;
+      }
+    }
+    .sportTwo:hover{
+      background-image: url("../images/siatkówka-min.jpg");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+      .siatkaBox{
+        display: none;
+      }
+    }
+    .sportThree{
+      .hokejBox{
+        position: absolute;
+        bottom: 30%;
+        left: 28%;
+        color: $mainFontColor;
+        text-decoration: none;
+      }
+    }
+    .sportThree:hover{
+      background-image: url("../images/hokej-min.jpg");
+      background-size: cover;
+      background-position: center;
+      animation:  rubberBand 1.5s infinite;
+      .hokejBox{
+        display: none;
+      }
+    }
+}
+}
+#partnerzy{
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../images/world-map.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  h3{
+    background-color: rgba(44, 49, 44, 1);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+  }
+  .partnersList{
+    width: 100%;
+    margin: 10px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ul{
+      padding-top: 60px;
+      text-align: center;
+      li{
+        padding-top: 10px;
+          a{
+          text-decoration: none;
+          font-size: 1.5rem;
+          color: $mainFontColor;
+        }
+        a:hover{
+          color: darken($mainFontColor, 30%);
+        }
+        .mobile{
+          position: absolute;
+          top: 45%;
+          left: 15%;
+        }
+        .shenyang{
+          position: absolute;
+          top: 55%;
+          right: 20%;
+        }
+      }
+    }
+  }
+}
+#edukacja{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  h3{
+    background-color: rgba(44, 49, 44, 1);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 6rem;
+    }
+  .info{
+    p{
+      font-size: 0.8rem;
+    }
+  }
+  .click{
+    visibility: hidden;
+   }
+  .schoolName{
+    text-align: center;
+    font-size: 2rem;
+    word-spacing: 0.2rem;
+  }
+  .school{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+    .ueKat{
+      width: 100%;
+      height: 50vh;
+      .ueInfo{
+        width: 90%;
+        height: 50vh;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .uePhoto{
+          width: 33%;
+          height: 40vh;
+          background-image: url("../images/ue1-min.jpg");
+          background-position: center;
+          background-size: cover;
+          border-radius: 2%;
+
+        }
+        .ueText{
+          width: 63%;
+          height: 50vh;
+          p{
+            margin-top: 10%;
+            text-align: center;
+            color: $mainFontColor;
+            }
+          }
+    }
+  }
+    .polŚl{
+      width: 100%;
+      height: 50vh;
+      .poliInfo{
+        width: 90%;
+        height: 50vh;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .poliPhoto{
+          width: 33%;
+          height: 40vh;
+          background-image: url("../images/polibuda-min.jpg");
+          background-position: center;
+          background-size: cover;
+          border-radius: 2%;
+        }
+        .poliText{
+          width: 63%;
+          height: 50vh;
+          p{
+            margin-top: 10%;
+            text-align: center;
+            color: $mainFontColor;
+            }
+          }
+        }
+      }
+  .uśKat{
+    width: 100%;
+    height: 50vh;
+    .uśInfo{
+      width: 90%;
+      height: 50vh;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .uśPhoto{
+        width: 33%;
+        height: 40vh;
+        background-image: url("../images/UŚ-min.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 2%;
+      }
+      .uśText{
+        width: 63%;
+        height: 50vh;
+        p{
+          margin-top: 10%;
+          text-align: center;
+          color: $mainFontColor;
+        }
+        }
+      }
+    }
+  }
+}
+
+// Kultura
+
+#kultura{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  .click{
+    visibility: hidden;
+  }
+  h3{
+    background-color: rgba(44, 49, 44, 1);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+  }
+  p{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .miejsca{
+    width: 100%;
+    position: relative;
+    .place{
+      width: 16vw;
+      text-decoration: none;
+      padding: 15px;
+      border-radius: 5%;
+      p{
+        color: white;
+        font-size: 1rem;
+      }
+    }
+    .kulturaFlexOne{
+      width: 60vw;
+      margin: 0 auto;
+      margin-top: 10px;
+      .nospr{
+        p{
+          background-image: url("../images/nospr-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      .muzeum{
+        p{
+          background-image: url("../images/muzeum-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .kulturaFlexTwo{
+      width: 70vw;
+      margin: 0 auto;
+      .spodek{
+        p{
+          background-image: url("../images/spodek2-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      .rynek{
+        p{
+          background-image: url("../images/rynek-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      .biblioteka{
+        p{
+          background-image: url("../images/muzeum-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .kulturaFlexThree{
+      width: 60vw;
+      margin: 0 auto;
+      .teatr{
+        p{
+          background-image: url("../images/teatr-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      .kongres{
+        p{
+          background-image: url("../images/kongres-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+      }
+    }
+  }
+footer{
+  width: 100%;
+  height: 15vh;
+  section{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top:15vh;
+    p{
+      text-align: center;
+      font-size: 1rem;
+      color: white;
+    }
+  }
+
+}
+}
+}
+@media (min-width: 800px){
+#headerSection{
+  background-color: rgba(44, 49, 44, 0.9);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
   .container{
     width: 100%;
     height: 12vh;
@@ -63,7 +772,14 @@
 }
 // historia
 #historia{
-
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 6rem;
+    }
 .section1 {
   width: 100%;
   height: 100vh;
@@ -103,7 +819,7 @@
     margin: 0 auto;
     background: rgba(44, 49, 44, 0.9);
     position: absolute;
-    top: 190vh;
+    top: 215vh;
     display: flex;
     p{
       padding-top: 2%;
@@ -121,7 +837,7 @@
     margin: 0 auto;
     background: rgba(44, 49, 44, 0.9);
     position: absolute;
-    top: 280vh;
+    top: 300vh;
     display: flex;
     p{
       padding-top: 2%;
@@ -396,7 +1112,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   h3{
-    background-color: rgba(44, 49, 44, 0.9);
+    background-color: rgba(44, 49, 44, 1);
     text-align: center;
     color: white;
     font-weight: lighter;
@@ -415,7 +1131,7 @@
     justify-content: space-around;
     align-items: center;
     ul{
-      padding-top: 30px;
+      padding-top: 60px;
       text-align: center;
       li{
         padding-top: 10px;
@@ -446,13 +1162,14 @@
   margin: 0 auto;
   height: auto;
   h3{
-    background-color: rgba(44, 49, 44, 0.9);
+    background-color: rgba(44, 49, 44, 1);
     text-align: center;
     color: white;
     font-weight: lighter;
     letter-spacing: 0.2rem;
     font-size: 6rem;
     }
+
   .click{
     position: relative;
     top: 6vh;
@@ -460,6 +1177,11 @@
     display: inline-block;
     color: $mainFontColor;
     }
+  .schoolName{
+    text-align: center;
+    font-size: 2rem;
+    word-spacing: 0.2rem;
+  }
   .school{
     width: 100%;
     margin: 0 auto;
@@ -483,12 +1205,10 @@
           background-position: center;
           background-size: cover;
           border-radius: 2%;
-          p{
-            width: 33%;
-          }
+
         }
         .ueText{
-          width: 33%;
+          width: 63%;
           height: 50vh;
           p{
             margin-top: 10%;
@@ -569,7 +1289,7 @@
   height: auto;
   position: relative;
   h3{
-    background-color: rgba(44, 49, 44, 0.9);
+    background-color: rgba(44, 49, 44, 1);
     text-align: center;
     color: white;
     font-weight: lighter;
@@ -716,8 +1436,9 @@ footer{
     top:15vh;
     p{
       text-align: center;
-      font-size: 2rem;
+      font-size: 1rem;
     }
   }
 
+}
 }

@@ -1,29 +1,23 @@
 $(document).ready(function(){
 
 // Logo animation
-var logo = $('.logo');
-var menu = $('.menu').find('li');
-var h1 = $('header').find('h1');
+var menu = $('#menu').find('li');
 
 
-
-if($(window).width() > 501){
+if($(window).width() > 800){
 menu.each(function(i){
-        $(this).hide().delay(i*1400).fadeIn(1550);}
+        $(this).hide().delay(i*250).fadeIn();}
 );
-}
-
 
 
 // education animation text
-
 var photo = $('.photo');
 var info = $('.info');
 info.hide()
   photo.on('click', function(){
     $(this).next().fadeIn(2000);
     });
-
+}
 
 
 // sticky menu
