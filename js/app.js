@@ -15,35 +15,19 @@ menu.each(function(i){
 }
 
 
-/*
-// button partners
-var partnerButton = $('.partnersList').find('ul button');
-var partnersList = $('.partnersList').find('ul li');
-partnersList.hide();
-partnerButton.on('click', function(){
-  partnersList.toggle(2000);
-});
-*/
-/*
-var h1 = $('h1');
-    var words = [
-        'Kattowitz',
-        'Katowice',
-        'Katowicy',
-        'Katowice',
-        'Katovice'
-        ], i = 0;
 
-    setInterval(function(){
-        h1.delay(1000).fadeOut(function(){
-            $(this).html(words[i=(i+1)%words.length]).fadeIn();
-        });
+// education animation text
 
-    }, 3000);
-*/
+var photo = $('.photo');
+var info = $('.info');
+info.hide()
+  photo.on('click', function(){
+    $(this).next().fadeIn(2000);
+    });
 
 
 
+// sticky menu
 
 var nav = $('.container');
 var menu = $('#menuSection');
@@ -61,6 +45,27 @@ $(window).on('scroll',function(){
   }
 
 });
+
+// culture animation
+
+var miejsca = $('.miejsca');
+var heart = $('#kultura').find('.serce');
+var click = $('#kultura').find('.click');
+heart.on('click', function(){
+  miejsca.animate({
+    opacity: 1,
+  },5000);
+  heart.animate({
+    opacity: 0,
+  },2000);
+  click.animate({
+    opacity: 0,
+  },2000);
+  miejsca.css('z-index', '2');
+
+})
+
+
 
 
 
