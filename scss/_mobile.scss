@@ -1,0 +1,556 @@
+@media (max-width: 799px){
+  body{
+    width: 100vw;
+    font-size: 12px;
+    margin: 0 auto;
+
+#headerSection{
+  background-color: rgba(44, 49, 44, 0.9);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  .container{
+    width: 100%;
+    height: 25vh;
+    margin: 0 auto;
+
+    h1{
+      font-size: 4rem;
+      position: absolute;
+      top: 30%;
+      left: 35%;
+      color: white;
+    }
+  }
+  .logoSection{
+    width: 30%;
+    margin: 0 auto;
+    height: 12vh;
+    display: block;
+    background-image: url("../images/logoKato.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: heartbeat 1.5s infinite;
+  }
+
+  #menuSection{
+    #menu{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      li{
+        padding-top: 1rem;
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 0.8rem;
+          padding-right: 1rem;
+        }
+        a:hover{
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+.sticky {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(44, 49, 44, 0.9);
+    z-index: 99;
+}
+// historia
+#historia{
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    }
+.section1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sectionOneHistoria {
+  background-image: url('../images/skrzydła.jpg');
+  .sectionOne{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top:41vh;
+    background: rgba(44, 49, 44, 0.9);
+    p{
+      padding: 2%;
+      font-size: 0.6rem;
+      color: white;
+    }
+
+  }
+}
+
+.sectionTwoHistoria{
+  background-image: url('../images/katowice-noca.jpg');
+  .sectionTwo{
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(44, 49, 44, 0.9);
+    position: relative;
+    top: 55vh;
+    p{
+      padding-top: 2%;
+      font-size: 0.6rem;
+      color: white;
+    }
+  }
+
+}
+.sectionThreeHistoria{
+  background-image: url('../images/spodek.jpg');
+  .sectionThree{
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(44, 49, 44, 0.9);
+    position: relative;
+    top: 60vh;
+    p{
+      padding-top: 2%;
+      font-size: 0.6rem;
+      color: white;
+    }
+  }
+}
+
+.sectionFourHistoria{
+  background-image: url('../images/gwiazdy.jpg');
+}
+}
+// wydarzenia
+
+#wydarzenia{
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("../images/Katowice-czarny.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .eventBox{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    .eventOne{
+    }
+    .event{
+      padding: 20px;
+    }
+    a{
+      width: 32%;
+      margin: 0 auto;
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: white;
+      p{
+        display: none;
+      }
+      .box{
+        height: 20vh;
+        background-position: center;
+        background-size: cover;
+        border-radius: 5%;
+        width: 50%;
+        margin: 0 auto;
+      }
+      .eventBoxOne{
+        background-image: url("../images/EEC-min.jpg");
+
+      }
+      .eventBoxTwo{
+        background-image: url("../images/IEM-min.jpg");
+
+      }
+      .eventBoxThree{
+        background-image: url("../images/TNM-min.png");
+        border: 1px solid black;
+
+      }
+      .eventBoxFour{
+        background-image: url("../images/rawablues-min.jpg");
+
+      }
+      .eventBoxFive{
+        background-image: url("../images/Juwenalia-Śląskie-min.png");
+
+      }
+      .eventBoxSix{
+        background-image: url("../images/offFestival-min.jpg");
+
+      }
+    }
+  }
+}
+// video
+
+.video{
+  display: none;
+  .videoHead{
+    width: 100%;
+    h3{
+      background-color: rgba(44, 49, 44, 0.9);
+      text-align: center;
+      color: white;
+      font-weight: lighter;
+      letter-spacing: 0.2rem;
+      font-size: 3rem;
+      font-weight: bold;
+      span{
+        color:red;
+      }
+    }
+  }
+  video{
+    width: 100%;
+  }
+}
+// sport
+
+#sport{
+  width: 100%;
+  margin: 0 auto;
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    }
+  .sportBox{
+    width: 80%;
+    margin: 10px auto;
+
+    a{
+      width: 32%;
+      height: 30vh;
+      margin:20px auto;
+      border-radius: 5%;
+      text-decoration: none;
+      font-size: 4vw;
+    }
+    .sportOne{
+      .piłkaBox{
+        color: $mainFontColor;
+        text-decoration: none;
+        padding-top: 20px;
+        text-align: center;
+      }
+    }
+    .sportTwo{
+      .siatkaBox{
+        color: $mainFontColor;
+        text-decoration: none;
+        padding-top: 20px;
+        text-align: center;
+      }
+    }
+    .sportThree{
+      .hokejBox{
+        color: $mainFontColor;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+
+      }
+    }
+  }
+}
+#partnerzy{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  h3{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(44, 49, 44, 1);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  .partnersList{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../images/world-map.png");
+    background-position: center;
+    background-size: cover;
+    ul{
+      text-align: center;
+      li{
+        padding-top: 10px;
+          a{
+          text-decoration: none;
+          font-size: 1rem;
+          color: $mainFontColor;
+        }
+        a:hover{
+          color: darken($mainFontColor, 30%);
+        }
+
+      }
+    }
+  }
+}
+#edukacja{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    }
+  .info{
+    p{
+      margin-top: 10%;
+      margin-bottom: 10%;
+      text-align: center;
+      color: $mainFontColor;
+    }
+  }
+  .click{
+    visibility: hidden;
+   }
+  .schoolName{
+    text-align: center;
+    font-size: 2rem;
+    word-spacing: 0.2rem;
+  }
+  .school{
+    width: 100%;
+    margin: 0 auto;
+    .ueKat{
+      width: 100%;
+      .ueInfo{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+        .uePhoto{
+          width: 100%;
+          height: 40vh;
+          background-image: url("../images/ue1-min.jpg");
+          background-position: center;
+          background-size: cover;
+          border-radius: 2%;
+        }
+        .ueText{
+          width: 90%;
+
+        }
+    }
+  }
+    .polŚl{
+      width: 100%;
+      .poliInfo{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+        .poliPhoto{
+          width: 100%;
+          height: 40vh;
+          background-image: url("../images/polibuda-min.jpg");
+          background-position: center;
+          background-size: cover;
+          border-radius: 2%;
+        }
+        .poliText{
+          width: 90%;
+          }
+        }
+      }
+  .uśKat{
+    width: 100%;
+    .uśInfo{
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 30px;
+      .uśPhoto{
+        width: 100%;
+        height: 40vh;
+        background-image: url("../images/UŚ-min.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 2%;
+      }
+      .uśText{
+        width:100%;
+
+        }
+      }
+    }
+  }
+}
+
+// Kultura
+
+#kultura{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../images/neon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  .click{
+    visibility: hidden;
+  }
+  h3{
+    background-color: rgba(44, 49, 44, 0.9);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    }
+  p{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .miejsca{
+    width: 100%;
+    position: relative;
+    .place{
+      width: 16vw;
+      text-decoration: none;
+      padding: 15px;
+      border-radius: 5%;
+      p{
+        color: white;
+        font-size: 1rem;
+        border-radius: 5%;
+      }
+    }
+      .nospr{
+        p{
+          background-image: url("../images/nospr-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 5%;
+
+        }
+      }
+      .muzeum{
+        p{
+          background-image: url("../images/muzeum-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 5%;
+
+        }
+      }
+      .spodek{
+        p{
+          background-image: url("../images/spodek2-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 5%;
+        }
+      }
+      .rynek{
+        p{
+          background-image: url("../images/rynek-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 5%;
+        }
+      }
+      .biblioteka{
+        p{
+          background-image: url("../images/muzeum-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 5%;
+        }
+      }
+      .teatr{
+        p{
+          background-image: url("../images/teatr-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 5%;
+        }
+      }
+      .kongres{
+        p{
+          background-image: url("../images/kongres-min.jpg");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 5%;
+        }
+      }
+    }
+  }
+footer{
+  width: 100%;
+  section{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+
+    p{
+      text-align: center;
+      font-size: 1rem;
+      color: white;
+      padding-top: 10px;
+    }
+  }
+
+}
+}
+}
