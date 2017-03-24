@@ -17,7 +17,7 @@ info.hide()
   photo.on('click', function(){
     $(this).next().fadeIn(2000);
     });
-}
+
 
 
 // sticky menu
@@ -59,6 +59,6 @@ heart.on('click', function(){
 })
 
 
-
+}
 
 });
