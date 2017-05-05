@@ -87,14 +87,14 @@
 }
 
 .sectionOneHistoria {
-  background-image: url('../images/skrzydła.jpg');
+  background-image: url('../images/skrzydla.jpg');
   .sectionOne{
     font-size: 24px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     position: absolute;
-    top:99vh;
+    top:103vh;
     background: rgba(44, 49, 44, 0.9);
     p{
       padding: 2%;
@@ -254,7 +254,7 @@
       }
     }
     .eventFive:hover{
-      background-image: url("../images/Juwenalia-Śląskie-min.png");
+      background-image: url("../images/Juwenalia-min.png");
       background-size: cover;
       background-position: center;
       animation:  rubberBand 1.5s infinite;
@@ -345,7 +345,7 @@
       }
     }
     .sportOne:hover{
-      background-image: url("../images/piłka-min.jpg");
+      background-image: url("../images/pilka-min.jpg");
       background-size: cover;
       background-position: center;
       animation:  rubberBand 1.5s infinite;
@@ -363,7 +363,7 @@
       }
     }
     .sportTwo:hover{
-      background-image: url("../images/siatkówka-min.jpg");
+      background-image: url("../images/siatkowka-min.jpg");
       background-size: cover;
       background-position: center;
       animation:  rubberBand 1.5s infinite;
@@ -552,7 +552,7 @@
       .uśPhoto{
         width: 33%;
         height: 40vh;
-        background-image: url("../images/UŚ-min.jpg");
+        background-image: url("../images/US-min.jpg");
         background-position: center;
         background-size: cover;
         border-radius: 2%;
